@@ -1,0 +1,6 @@
+{
+    // resize group automatically on focus
+    "auto_resize": true,
+
+    "golden_ratio": 1.42
+}

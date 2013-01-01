@@ -1,0 +1,35 @@
+[
+    {
+        "keys": ["super+f3"],
+        "command": "goto_python_definition"
+    },
+
+    {
+        "keys": ["f8"],
+        "command": "toggle_white_space"
+    },
+
+    {
+        "keys": ["ctrl+alt+shift+l"],
+        "command": "sublimelinter",
+        "args":
+        {
+            "action": "lint"
+        }
+    },
+
+    {
+        "keys": ["ctrl+alt+shift+e"],
+        "command": "find_next_lint_error"
+    },
+
+    {
+        "keys": ["ctrl+alt+shift+s"],
+        "command": "set_setting",
+        "args":
+        {
+            "setting": "color_scheme",
+            "value": "Packages/Color Scheme - Default/Monokai.tmTheme"
+        }
+    }
+]

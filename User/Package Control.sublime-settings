@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Change List (Last Edit)",
+		"copy-file-name",
+		"DetectSyntax",
+		"FavoriteFiles",
+		"Git",
+		"GitGutter",
+		"GoldenRatio",
+		"LastEdit",
+		"Origami",
+		"Package Control",
+		"PlainTasks",
+		"Pylinter",
+		"Schemr",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Soda",
+		"WordHighlight"
+	]
+}

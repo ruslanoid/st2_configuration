@@ -1,0 +1,21 @@
+{
+    "files": [],
+    "groups": {
+        "SCSI": [
+            "/home/ruslanp/work/v11/tlib/deps/xiv/scsi/cmds.py",
+            "/home/ruslanp/work/v11/tlib/deps/iotool/xiv/scsi/sense.py"
+        ],
+        "SublimeTextCustomization": [
+            "/home/ruslanp/.config/sublime-text-2/Packages/User/r11tests.sublime-build"
+        ],
+        "Tlib": [
+            "/home/ruslanp/work/v11/tlib/configuration/eventra_config.py",
+            "/home/ruslanp/work/v11/tlib/systems/nextra/p10/event_tracker.py"
+        ],
+        "long tests": [
+            "/home/ruslanp/work/v11/tests/basic_functionality/volumes/max_pool_sized_volume.py",
+            "/home/ruslanp/work/v11/tests/basic_functionality/volumes/volume_delete.py"
+        ]
+    },
+    "version": 1
+}

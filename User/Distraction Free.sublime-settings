@@ -1,0 +1,13 @@
+{
+    // Columns in which to display vertical rulers
+    "rulers": [],
+
+    "line_numbers": true,
+    "gutter": true,
+    "draw_centered": true,
+    "wrap_width": 128,
+    "word_wrap": true,
+    "scroll_past_end": true
+
+    // don't forget you can toggle tabs, minimap, etc... via the command palette as well
+}

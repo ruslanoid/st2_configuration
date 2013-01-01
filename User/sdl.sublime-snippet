@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+if not self.system.sdlRecovery.isInFailedRequests(${1:volume}, ${2:errored_lba_in_blocks}//2048 + ${1:volume}.sliceOffset):
+    ${3:system}.eventTracker.expect("MEDIUM_ERROR_NOT_RECOVERED" if ${3:system}.version.versionString >= "11.2" else "SUSPECT_DATA_LOSS",
+        lambda e, evt_lba=(${2:errored_lba_in_blocks}//2048): int(e.data.logical_partition_number) == evt_lba, deadline = 180, multiple = True)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- Hello, ${1:this} is a ${2:snippet}. -->
+    <tabTrigger>sdl</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
