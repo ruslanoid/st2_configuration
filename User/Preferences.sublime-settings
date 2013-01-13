@@ -1,22 +1,26 @@
 {
-	"color_scheme": "Packages/Base16/base16-monokai.dark.tmTheme",
 	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Base16/base16-monokai.dark.tmTheme",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"fade_inactive_panes": false,
 	"font_face": "Inconsolata",
 	"font_size": 10.0,
+	"caret_style": "phase",
 	"git_gutter_live_mode": true,
-	"highlight_modified_tabs": true,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
+		"SublimeRope",
 		"Pylinter",
 		"LastEdit"
 	],
 	"ignored_words":
 	[
+		"defragmentation",
+		"fsck",
 		"ssd"
 	],
 	"soda_classic_tabs": false,
